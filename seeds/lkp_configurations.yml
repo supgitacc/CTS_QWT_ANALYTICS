@@ -1,7 +1,7 @@
 version: 2
  
 seeds:
-  - name: lkp_dividions
+  - name: lkp_divisions
     config:
       schema: "{{env_var('DBT_LKPSCHEMA','LOOKUP_DEV')}}"
   - name: lkp_categories
